@@ -19,7 +19,6 @@ const config = defineConfig({
     viteTsConfigPaths({
       projects: ['./tsconfig.json'],
     }),
-
     tanstackStart(),
     viteReact(),
   ],

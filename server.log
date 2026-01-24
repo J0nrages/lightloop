@@ -1,0 +1,12 @@
+46 |     }
+47 |   }
+48 |   let er;
+49 |   if (args.length > 0)
+50 |     er = args[0];
+51 |     throw er;
+                 ^
+error: Failed to start server. Is port 42069 in use?
+      at emitError (node:events:51:13)
+Port 3000 is in use, trying another one...
+
+Bun v1.2.22 (Linux x64)

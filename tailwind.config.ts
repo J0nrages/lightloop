@@ -57,11 +57,19 @@ const config: Config = {
       },
       fontFamily: {
         sans: [
-          '"Geist Sans"',
-          '"SF Pro Text"',
-          '"SF Pro Display"',
-          'system-ui',
-          'sans-serif',
+          '"JetBrains Mono"',
+          'ui-monospace',
+          'SFMono-Regular',
+          'Menlo',
+          'Monaco',
+          'Consolas',
+          'monospace',
+        ],
+        mono: [
+          '"JetBrains Mono"',
+          'ui-monospace',
+          'SFMono-Regular',
+          'monospace',
         ],
       },
       keyframes: {

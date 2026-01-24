@@ -1,10 +1,10 @@
-import { useChat } from "@ai-sdk/react";
+import { useChat } from "@tanstack/ai-react";
 import { Message, MessageAvatar, MessageContent } from "@/components/ui/message";
 import { Loader } from "@/components/ui/loader";
 
 export function Chat() {
   const { messages, status } = useChat({
-    api: "http://localhost:4111/chat",
+    api: "/api/chat",
   });
 
   const lastMessageId = messages[messages.length - 1]?.id;

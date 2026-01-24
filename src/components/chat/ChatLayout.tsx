@@ -73,7 +73,7 @@ export function ChatLayout({
                 onSubmit={handleFormSubmit}
                 className="rounded-[24px] shadow-sm border-muted-foreground/20 bg-muted/5 focus-within:bg-background focus-within:ring-1 focus-within:ring-primary/10 transition-all p-3"
               >
-                <PromptInputTextarea placeholder="How can I help you hire?" className="px-2" />
+                <PromptInputTextarea placeholder="" className="px-2" />
                 <PromptInputActions className="px-1">
                   <PromptInputAction tooltip="Attach files">
                     <Button variant="ghost" size="icon" className="rounded-full h-9 w-9 text-muted-foreground">
@@ -152,7 +152,7 @@ export function ChatLayout({
                     onSubmit={handleFormSubmit}
                     className="rounded-2xl border-muted-foreground/20 shadow-none bg-muted/20 p-2"
                   >
-                    <PromptInputTextarea placeholder="How can I help?" className="min-h-[40px] px-2 text-sm" />
+                    <PromptInputTextarea placeholder="" className="min-h-[40px] px-2 text-sm" />
                     <Button 
                       onClick={handleFormSubmit}
                       disabled={isLoading || !input?.trim()}

@@ -1,0 +1,23 @@
+{
+  "name": "@lightloop/config",
+  "version": "0.0.1",
+  "exports": {
+    "./tailwind": "./tailwind/index.ts",
+    "./eslint": "./eslint.config.js"
+  },
+  "peerDependencies": {
+    "tailwindcss": "^3.4.0"
+  },
+  "peerDependenciesMeta": {
+    "tailwindcss": {
+      "optional": true
+    }
+  },
+  "dependencies": {
+    "@tailwindcss/typography": "^0.5.19",
+    "tailwindcss-animate": "^1.0.7"
+  },
+  "devDependencies": {
+    "tailwindcss": "^3.4.0"
+  }
+}

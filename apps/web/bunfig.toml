@@ -1,0 +1,7 @@
+[test]
+# Preload test setup (happy-dom globals are initialized there)
+preload = ["./src/test/setup.ts"]
+
+# Coverage configuration
+coverage = false
+# coverageDir = "coverage"
